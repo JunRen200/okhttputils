@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="comqq.example.asus_pc.okhttputils.MainActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/img"/>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/btn_photo"
+        android:text="显示图片" />
+
+    <ProgressBar
+        android:max="100"
+        android:progress="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/progressBar"
+        />
+
+    <Button
+        android:layout_width="50dp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_down"
+        android:text="下载文件" />
+</LinearLayout>
